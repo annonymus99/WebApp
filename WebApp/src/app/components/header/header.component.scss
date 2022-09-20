@@ -1,5 +1,7 @@
 @media only screen and (max-width:1200px) {
     mat-toolbar{
+        position:fixed;
+        top:0;
         background:rgba(255, 191, 71, 0.842);
         
     }
@@ -32,6 +34,8 @@
 
 @media only screen and (min-width:1200px) {
 mat-toolbar{
+    position:absolute;
+    top:0;
     background:rgba(255, 191, 71, 0.842);
     
 }
